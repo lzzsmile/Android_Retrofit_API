@@ -19,6 +19,6 @@ public class Answer {
 
     @Override
     public String toString() {
-        return answerId + " - Score: " + score + " - Accpted: " + (accepted ? "Yes" : "No");
+        return "Answer ID: " + answerId + " - Score: " + score + " - Accepted: " + (accepted ? "Yes" : "No");
     }
 }
